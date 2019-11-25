@@ -1,5 +1,6 @@
 # pymaceutical
-just practising data analysis 
+Just practising data analysis 
+
 Objective is to analyze the data to show how four treatments (Capomulin, Infubinol, Ketapril, and Placebo) compare.
 To do this you are tasked with:
 * Creating a scatter plot that shows how the tumor volume changes over time for each treatment.
