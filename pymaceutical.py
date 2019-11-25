@@ -2,7 +2,6 @@
 """
 Created on Sat Nov 23 18:41:51 2019
 
-@author: aregh
 """
 
 # Import the required modules
@@ -10,8 +9,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Import the datasets to be analysed
-mouse = pd.read_csv(r'C:\Users\aregh\Downloads\mouse_drug_data.csv')
-trial = pd.read_csv(r'C:\Users\aregh\Downloads\clinicaltrial_data.csv')
+mouse = pd.read_csv('mouse_drug_data.csv')
+trial = pd.read_csv('clinicaltrial_data.csv')
 
 # Merge datasets into a single dataset using Pandas merge:
 combined_df = pd.merge(mouse, trial, how="left", on="Mouse ID")
